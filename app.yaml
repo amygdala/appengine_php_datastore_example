@@ -1,0 +1,16 @@
+application: your-app-id
+version: uno
+runtime: php
+api_version: 1
+threadsafe: false
+
+handlers:
+
+- url: /datastore_connect
+  script: datastore_connect.php
+
+- url: /datastore_connect2
+  script: datastore_connect2.php
+
+- url: /model_example
+  script: model_example.php
